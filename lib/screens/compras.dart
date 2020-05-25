@@ -58,11 +58,7 @@ class _ComprasState extends State<Compras> {
                   Container(
                     child: GestureDetector(
                       onTap: _letsPress,
-                      child: buttonPressed
-                          ? ButtonTapped(
-                              icon: Icons.home,
-                            )
-                          : MyButton(icon: Icons.home),
+                      child: buttonPressed ? ButtonTapped(icon: Icons.home,) : MyButton(icon: Icons.home),
                     ),
                   ),
                 ],
